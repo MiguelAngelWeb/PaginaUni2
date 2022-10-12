@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://assets.stickpng.com/images/58568a5b4f6ae202fedf2713.png"
+        type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&family=Prompt&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/61af7ade34.js" crossorigin="anonymous"></script>
+    <title>JDH Reciclaje</title>
+</head>
+
+<body>
+    <div id="container">
+        <section class="menu--container">
+            <nav class="menu">
+                <section class="menu__container">
+
+                    <h1 class="menu__logo">JDH Reciclando por <span class="typed"></span></h1>
+
+                    <div class="menu__hamburguer">
+                        <img src="assets/menu.svg" class="menu__img">
+                    </div>
+
+                    <ul class="menu__links">
+                        <li class="menu__item">
+                            <a href="" class="menu__link">Inicio</a>
+
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="filtro.html" class="menu__link">Vision</a>
+                        </li>
+
+                        <li class="menu__item menu__item--show">
+                            <a href="amd.html" class="menu__link">Mision<img src="" class="menu__arrow"></a>
+
+                        <li class="menu__item menu__item--show">
+                            <a href="objetivos.html" class="menu__link">Objetivos<img src="" class="menu__arrow"></a>
+                </section>
+                <div class="container_progressbar">
+                    <div class="progressbar"></div>
+                </div>
+        </section>
+        </nav>
+        <div class="contenedor-de-cuerpo">
+
+
+
+        </div>
+        <button class="btn-scrolltop" id="btn_scrolltop">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+        <script>
+            const btn_scrolltop = document.getElementById("btn_scrolltop")
+            btn_scrolltop.addEventListener('click', () => {
+                window.scrollTo(0, 0)
+            })
+
+            window.onscroll = () => {
+                add_btn_scrolltop()
+            }
+
+            const add_btn_scrolltop = () => {
+                if (window.scrollY < 300) {
+                    btn_scrolltop.classList.remove("btn-scrolltop-on")
+                } else {
+                    btn_scrolltop.classList.add("btn-scrolltop-on")
+                }
+            }
+
+        </script>
+
+        <section>
+
+            <div class="clearfix">
+                <section id="content">
+                    <article class="article">
+                        <h2 class="encabezado" id="Reciclaje"></i> ¿Que es el reciclaje?</h2>
+                        <p>
+                            Para que puedan entender de lo que se trata nuestra empresa primero tienen que saber los
+                            conceptos basicos sobre el reciclaje y en si lo que es el reciclaje
+                            <br>
+                            <br>
+                            El reciclaje es un proceso cuyo objetivo es convertir residuos en nuevos productos o en
+                            materia prima para su posterior utilización. Se previene el desuso de materiales
+                            potencialmente útiles, se reduce el consumo de nueva materia prima y el uso de energía.
+                            Adicionalmente, se previene la contaminación del aire (a través de la incineración y del
+                            agua (a través de los vertederos, así como también se disminuyen las emisiones de gases
+                            de efecto invernadero en comparación con la producción de plásticos.
+                            <br>
+                            <br>
+                            El reciclaje es un componente clave en la reducción de desechos contemporáneos y es el
+                            tercer componente de las 3R («Reducir, Reutilizar y Reciclar»).
+                        <p>
+
+                    </article>
+                    <article class="article">
+                        <h2 class="encabezado" id="Inicio"></i>JDH Reciclaje</h2>
+                        <p>
+                            Nuestra empresa de encarga de la recoleccion de material desechable como: el plastico, el
+                            carton,etc.
+                            Para cuidar al planeta y tener un mundo nmas limpio para nosotro y nuestras desendencias.
+                            <br>
+                            <br>
+                            Es importante señalar que no porque un producto tenga el atributo de ser reciclable pueda
+                            que exista la infraestructura para reciclarlo.
+                            <br>
+                            <br>
+                            De hecho, hay comunas que no reciclan todos los materiales, así como hay productos que
+                            pudiendo reciclarse no cuentan con la capacidad instalada para llevarlo a cabo.
+                        <p>
+
+                    </article>
+
+
+
+                    <div id="slider-frame">
+                        <ul>
+                            <li><img class="img-1"
+                                    src="https://www.valladolidrecicla.es/wp-content/uploads/2021/11/portada-post-v2.jpg"
+                                    height="250px" width="250px"></li>
+                            <li><img class="img-1"
+                                    src="https://www.bienestarcolsanitas.com/images/2-SECCIONES/MEDIO-AMBIENTE/RECOMENDACIONES/RECICLAR%20RECO/RECICLAJE5.jpg"
+                                    height="250px" width="250px"></li>
+                            <li><img class="img-1" src="https://www.ninandes.org/images/Blog/Blog_Reciclaje.jpg"
+                                    height="250px" width="250px"></li>
+                            <li><img class="img-1"
+                                    src="https://blog.junkers.es/wp-content/uploads/2020/02/reciclar-en-casa.jpg"
+                                    height="250px" width="250px"></li>
+                        </ul>
+                    </div>
+                </section>
+        </section>
+
+
+        <div class="contenedor-aside">
+            <aside>
+
+
+                <article>
+                    <h2>¿Como se maneja la materia prima?</h2>
+                    <p class="articleaside">Nuestra empresa fomenta el buen uso de las materias primas recolectadas para
+                        la durabilidad de
+                        dichos productos para poder traes nuevos he innovadores productos con esa misma materia prima
+                        reutilizada </p>
+
+
+                </article>
+                <br>
+                <br>
+                <img class="img-aside" id="responsive" src="logo.png" width="250px" height="250px">
+
+
+
+        </div>
+        <div class="clearfix"></div>
+
+
+        <footer>
+            <div class="container__footer">
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="http://www.fundacionreciclajeinclusivo.org/wp-content/uploads/2017/07/logo-definitivo-01-1024x680.png"
+                            alt="">
+                    </div>
+                    <div class="terms">
+                        <p>AYUDANOS y ayuda a ONGS de reciclaje a ofrecer ayuda a nuestro mundo que nos vindra infinitas
+                            materias primas y nos
+                            vindra la vida y el privilegio de poder vivirla al maximo</p>
+                    </div>
+                </div>
+                <div class="box__footer">
+                    <h2>Compañia</h2>
+                    <a href="#">Quienes Somos</a>
+                    <a href="porquereciclamos.html">¿Porque reciclamos?</a>
+                    <a href="reciclar.html">¿Porque es importante reciclar?</a>
+
+                </div>
+                <div class="box__footer">
+                    <h2>Redes</h2>
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    <a href="https://twitter.com/home" target="_blank">Twitter</a>
+                    <a href="https://mail.google.com/" target="_blank">Correo</a>
+                </div>
+                <div class="box__copyright">
+                    <hr>
+                    <p>Todos los derechos reservados JDH Reciclaje © 2021</p>
+                </div>
+        </footer>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
